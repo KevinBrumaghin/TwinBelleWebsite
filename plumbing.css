@@ -67,7 +67,7 @@
 .psection1{
     display: flex;
     width: 100%;
-    height: 900px;
+    height: 600px;
     /* border: solid black; */
     justify-content: flex-start;
     background-image: url("pics/bpw.png");
@@ -81,7 +81,6 @@
     justify-content: top;
     align-items: left;
     padding-top: 60px;
-    padding-left: 15%;
   }
 
   .westplum{
@@ -95,9 +94,7 @@
   .plumbing{
     font-weight: 700;
     font-size: 50px;
-    color: #b20000;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    color: white;
   }
 
   .sec1p{
@@ -105,6 +102,37 @@
     font-size: 15px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
+  }
+
+  .image1{
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 30px;
+  }
+
+  .imgplumb{
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+  }
+
+  .im:hover{
+    transform: translateY(-0.25em);
+  }
+  .plumbing:hover{
+    transform: translateY(-0.25em);
+  }
+  .repairicon:hover{
+    transform: translateY(-0.25em);
+  }
+
+
+  .psection2{
+    background-color: white;
+    width: 100%;
+    height: 300px;
   }
 
 
